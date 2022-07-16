@@ -11,7 +11,7 @@ namespace Rocky.Models
 
         [DisplayName("Name")]
         [Required]
-        public string CategoryName { get; set; }
+        public string Name { get; set; }
 
         [DisplayName("Display Order")]
         [Required]
@@ -23,7 +23,7 @@ namespace Rocky.Models
             public СategoryValidator()
             {
                 RuleFor(x => x.Id).NotNull();
-                RuleFor(x => x.CategoryName).Length(0, 20);
+                RuleFor(x => x.Name).Length(0, 20);
                 RuleFor(x => x.DisplayOrder).NotNull();
             }
         }

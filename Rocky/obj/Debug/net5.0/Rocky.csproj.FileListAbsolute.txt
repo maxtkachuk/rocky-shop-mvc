@@ -148,3 +148,7 @@ C:\Users\maxtk\source\repos\Rocky\Rocky\obj\Debug\net5.0\Razor\Views\Category\Cr
 C:\Users\maxtk\source\repos\Rocky\Rocky\bin\Debug\net5.0\FluentValidation.dll
 C:\Users\maxtk\source\repos\Rocky\Rocky\obj\Debug\net5.0\Razor\Views\Category\Edit.cshtml.g.cs
 C:\Users\maxtk\source\repos\Rocky\Rocky\obj\Debug\net5.0\Razor\Views\Category\Delete.cshtml.g.cs
+C:\Users\maxtk\source\repos\Rocky\Rocky\obj\Debug\net5.0\Razor\Views\ApplicationType\Create.cshtml.g.cs
+C:\Users\maxtk\source\repos\Rocky\Rocky\obj\Debug\net5.0\Razor\Views\ApplicationType\Index.cshtml.g.cs
+C:\Users\maxtk\source\repos\Rocky\Rocky\obj\Debug\net5.0\Razor\Views\ApplicationType\Delete.cshtml.g.cs
+C:\Users\maxtk\source\repos\Rocky\Rocky\obj\Debug\net5.0\Razor\Views\ApplicationType\Edit.cshtml.g.cs
