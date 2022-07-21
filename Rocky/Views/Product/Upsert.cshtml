@@ -39,12 +39,22 @@
                     </div>
 
                 </div>
+                  <div class="form-group row">
+                    <div class="col-4">
+                        <label asp-for="Product.ShortDescription"></label>
+                    </div>
+                    <div class="col-8">
+                        <input asp-for="Product.ShortDescription" class="form-control"/>
+                        <span asp-validation-for="Product.ShortDescription" class="text-danger"></span>
+                    </div>
+
+                </div>
                  <div class="form-group row">
                     <div class="col-4">
                         <label asp-for="Product.Description"></label>
                     </div>
                     <div class="col-8">
-                        <input asp-for="Product.Description" class="form-control"/>
+                        <textarea asp-for="Product.Description" class="form-control summernote"></textarea>
                         <span asp-validation-for="Product.Description" class="text-danger"></span>
                     </div>
 
@@ -68,6 +78,19 @@
                            <option disabled selected>--Select Category--</option>
                        </select>
                         <span asp-validation-for="Product.CategoryId" class="text-danger"></span>
+                    </div>
+
+                </div>
+
+                 <div class="form-group row">
+                    <div class="col-4">
+                        <label asp-for="Product.ApplicationTypeId"></label>
+                    </div>
+                    <div class="col-8">
+                       <select asp-for ="Product.ApplicationTypeId" asp-items="@Model.ApplicationTypeSelectList" class="form-control">
+                           <option disabled selected>--Select Application--</option>
+                       </select>
+                        <span asp-validation-for="Product.ApplicationTypeId" class="text-danger"></span>
                     </div>
 
                 </div>
@@ -97,6 +120,10 @@
             </div>
             <div class="col-4">
                 @* Keep this empty *@
+                @if (Model.Product.Id != 0)
+                {
+                    <img src="@WC.ImagePath@Model.Product.Image" width="100%" style="border-radius:5px; border:1px solid #bbb"/>
+                }
             </div>
         </div>
 
@@ -107,6 +134,11 @@
 {
     @{ <partial name="_ValidationScriptsPartial"/>  }
     <script>
+        $(document).ready(function() {
+            $('.summernote').summernote({
+                height: 250
+            });
+        });
         function validateInput()
         {
             if (document.getElementById("uploadBox").value == "") {
@@ -115,7 +147,7 @@
                     'Please upload an image!',
                     'error'
                 )
-        return false;
+            return false;
     }
         return true; 
     }
