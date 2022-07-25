@@ -155,3 +155,5 @@ C:\Users\maxtk\source\repos\Rocky\Rocky\obj\Debug\net5.0\Razor\Views\Application
 C:\Users\maxtk\source\repos\Rocky\Rocky\obj\Debug\net5.0\Razor\Views\Product\Index.cshtml.g.cs
 C:\Users\maxtk\source\repos\Rocky\Rocky\obj\Debug\net5.0\Razor\Views\Product\Upsert.cshtml.g.cs
 C:\Users\maxtk\source\repos\Rocky\Rocky\obj\Debug\net5.0\Razor\Views\Product\Delete.cshtml.g.cs
+C:\Users\maxtk\source\repos\Rocky\Rocky\obj\Debug\net5.0\Razor\Views\Shared\_IndividualProductCard.cshtml.g.cs
+C:\Users\maxtk\source\repos\Rocky\Rocky\obj\Debug\net5.0\Razor\Views\Home\Details.cshtml.g.cs
