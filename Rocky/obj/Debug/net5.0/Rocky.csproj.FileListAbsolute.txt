@@ -214,3 +214,4 @@ C:\Users\maxtk\source\repos\Rocky\Rocky\obj\Debug\net5.0\Razor\Views\Shared\_Log
 C:\Users\maxtk\source\repos\Rocky\Rocky\obj\Debug\net5.0\Razor\Views\Cart\Index.cshtml.g.cs
 C:\Users\maxtk\source\repos\Rocky\Rocky\obj\Debug\net5.0\Razor\Views\Cart\Summary.cshtml.g.cs
 C:\Users\maxtk\source\repos\Rocky\Rocky\bin\Debug\net5.0\Mailjet.Client.dll
+C:\Users\maxtk\source\repos\Rocky\Rocky\obj\Debug\net5.0\Razor\Views\Cart\InquiryConfirmation.cshtml.g.cs
